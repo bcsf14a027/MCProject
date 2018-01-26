@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/ll_ui_layout">
+
+    <TextView
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/my_new_diet_chart"
+        android:textColor="#378"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/breakfast"
+        android:textColor="#378"
+        android:layout_weight="0.06"
+        android:text="@string/breakfast" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_breakfast"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:inputType="none" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/supper"
+        android:textColor="#378"
+        android:id="@+id/supper"
+        android:layout_weight="0.06" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_supper"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:inputType="none" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/lunch"
+        android:textColor="#378"
+        android:id="@+id/lunch"
+        android:layout_weight="0.06" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_lunch"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/snack_time"
+        android:textColor="#378"
+        android:id="@+id/snack"
+        android:layout_weight="0.06" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_snack"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/dinner"
+        android:textColor="#378"
+        android:id="@+id/dinner"
+        android:layout_weight="0.06" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_dinner"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/chart_id"
+        android:textColor="#378"
+        android:id="@+id/id"
+        android:layout_weight="0.06" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_id"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:inputType="none" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_chart"
+        android:textColor="#378"
+        android:id="@+id/add"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:textColor="#378"
+        android:id="@+id/reset"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Tables"
+        android:textColor="#378"
+        android:id="@+id/show"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELETE"
+        android:textColor="#378"
+        android:id="@+id/delete"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EDIT CHART"
+        android:textColor="#378"
+        android:id="@+id/update"
+        android:layout_weight="0.06" />
+</LinearLayout>
+
+</ScrollView>

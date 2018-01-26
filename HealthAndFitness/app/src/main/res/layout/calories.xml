@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical"
+        tools:context="com.example.hp.bmi.MainActivity">
+
+        <TextView
+            android:id="@+id/tv_carbschart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="5dip"
+            android:text="Carbohydrate chart"
+            android:textSize="@dimen/text_size"
+
+            android:padding="@dimen/padoftext"
+            android:layout_toRightOf="@+id/et_sugar"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_carbimage"
+            android:layout_width="match_parent"
+            android:layout_height="268dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:paddingRight="10dp"
+            android:src="@drawable/images" />
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+
+            app:srcCompat="@drawable/chart1" />
+        <TextView
+            android:id="@+id/tv_fruitchart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="5dip"
+            android:text=" Fruits calorie chart"
+            android:textSize="@dimen/text_size"
+
+            android:padding="@dimen/padoftext"
+            android:layout_toRightOf="@+id/et_sugar"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_fruit"
+            android:layout_width="match_parent"
+            android:layout_height="268dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:paddingRight="10dp"
+            android:src="@drawable/fruits" />
+
+        <ImageView
+            android:id="@+id/calories_fruit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+
+            app:srcCompat="@drawable/calories_fruit" />
+
+        <TextView
+            android:id="@+id/tv_proteinchart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="5dip"
+            android:text="Protein chart"
+            android:textSize="@dimen/text_size"
+
+            android:padding="@dimen/padoftext"
+            android:layout_toRightOf="@+id/et_sugar"
+            />
+
+
+        <ImageButton
+            android:id="@+id/btn_proimage"
+            android:layout_width="match_parent"
+            android:layout_height="268dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:paddingRight="10dp"
+            android:src="@drawable/pro_image" />
+
+        <ImageView
+            android:id="@+id/iv_chart_protein"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+
+            app:srcCompat="@drawable/chart_protein" />
+    </LinearLayout>
+
+
+</ScrollView>
+
